@@ -115,10 +115,10 @@ def readme_excerpt(row, token):
 def ai_summaries(rows, token):
     if os.environ.get("ENABLE_AI", "false").lower() != "true":
         return {}, "基础版（未调用 AI）"
-    key = os.environ.get("OPENAI_API_KEY", "").strip()
-    model = os.environ.get("OPENAI_MODEL", "").strip()
+    key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+    model = os.environ.get("DEEPSEEK_MODEL", "deepseek-flash").strip() or "deepseek-flash"
     if not key or not model:
-        raise RuntimeError("AI enabled but OPENAI_API_KEY or OPENAI_MODEL is missing.")
+        raise RuntimeError("AI enabled but DEEPSEEK_API_KEY is missing.")
     sources = [{"name": row["name"], "description": row["description"],
                 "readme": readme_excerpt(row, token)} for row in rows]
     instructions = (
@@ -131,13 +131,24 @@ def ai_summaries(rows, token):
         "\"caveat\":\"使用条件或资料局限，60字以内\"}]}。"
         "必须包含全部8个项目，name原样保留。输出内容用纯文本，不使用Markdown链接或HTML。"
     )
-    body = {"model": model, "store": False, "instructions": instructions,
-            "input": json.dumps(sources, ensure_ascii=False), "max_output_tokens": 6000}
-    data = json.loads(request("https://api.openai.com/v1/responses", key, "application/json", body))
-    if data.get("status") != "completed":
-        raise RuntimeError("AI response incomplete; report not written. Check model/output limits.")
-    output = "".join(part.get("text", "") for item in data.get("output", [])
-                     for part in item.get("content", []) if part.get("type") == "output_text").strip()
+    body = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": instructions},
+            {"role": "user", "content": json.dumps(sources, ensure_ascii=False)},
+        ],
+        "response_format": {"type": "json_object"},
+        "thinking": {"type": "disabled"},
+        "stream": False,
+        "max_tokens": 6000,
+    }
+    data = json.loads(request("https://api.deepseek.com/chat/completions", key, "application/json", body))
+    choices = data.get("choices") or []
+    if not choices or choices[0].get("finish_reason") != "stop":
+        raise RuntimeError("DeepSeek response incomplete; report not written. Check output limits.")
+    output = (choices[0].get("message", {}).get("content") or "").strip()
+    if not output:
+        raise RuntimeError("DeepSeek returned empty content; report not written.")
     if output.startswith("```"):
         output = re.sub(r"^```(?:json)?\s*|\s*```$", "", output)
     try:
@@ -156,7 +167,7 @@ def ai_summaries(rows, token):
             raise ValueError()
     except (ValueError, KeyError, TypeError):
         raise RuntimeError("Invalid AI JSON or project list; report not written.") from None
-    return summaries, "AI 辅助中文总结（根据官方简介及 README 节选）"
+    return summaries, f"DeepSeek / {model} 中文总结（根据官方简介及 README 节选）"
 
 
 def render(rows, candidate_count, summaries, mode, now, fetched_at):
