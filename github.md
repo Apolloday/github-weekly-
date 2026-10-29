@@ -135,3 +135,113 @@
 这 8 个项目中，多项围绕 AI 智能体的分析、审计、设计与开发工作流；另有本地语音制作、电视系统精简和 GPU 计算工具。该分类来自项目功能描述，不代表已验证它们的涨星原因。
 
 <!-- 后续周报按日期追加到此处；保留历史期次。 -->
+
+
+<!-- weekly-report:2026-10-29:start -->
+## 2026-10-29｜云端周报 Top 8
+
+生成时间：2026-10-29T20:38:34+08:00（北京时间）  
+榜单抓取时间：2026-10-29T20:38:36+08:00  
+模式：基础版（未调用 AI）  
+候选范围：本次 GitHub Trending / This week 页面解析到的 11 个项目。
+
+按页面标注的周新增 Star 降序取前 8；来源：[GitHub 官方周榜](https://github.com/trending?since=weekly)。
+This week 使用来源站点自己的滚动周口径，页面未提供精确起止时刻；不自行假定为周一至今。
+本期是周榜候选范围内排名，不是 GitHub 全站全部仓库的增长排名。
+周增量来自榜单；累计 Star、语言和许可证等来自随后读取的仓库 API，采样时点不同。
+许可证为 GitHub 自动识别结果，多组件或模型的许可应另查原文件。
+
+| 排名 | 项目 | 周新增 Star | 当前累计 Star | 主要语言 | 许可证 |
+| --- | --- | ---: | ---: | --- | --- |
+| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 16,002 | 52,301 | JavaScript | MIT |
+| 2 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 7,283 | 94,254 | Rust | Apache-2.0 |
+| 3 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 5,322 | 118,135 | Python | Apache-2.0 |
+| 4 | [obra/superpowers](https://github.com/obra/superpowers) | 4,655 | 307,950 | Shell | MIT |
+| 5 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 4,293 | 226,212 | 未标注 | 未确认（需阅读 LICENSE） |
+| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 3,940 | 105,082 | JavaScript | MIT |
+| 7 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | 3,516 | 23,722 | Python | MIT |
+| 8 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 2,612 | 33,760 | Python | Apache-2.0 |
+
+### 1. cloudflare/security-audit-skill
+
+- 维护方：cloudflare
+- 官方简介：A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+- 主要语言 / 许可：JavaScript / MIT
+- 周新增 Star：16,002；当前累计 Star：52,301
+- Fork：3,347；最近推送时间（UTC）：2026-09-14T19:29:02Z
+- 官方资料：[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)（含 README）
+- 中文分析：本期未启用 AI；以上为官方元数据，具体使用条件请查 README。
+
+### 2. pbakaus/impeccable
+
+- 维护方：pbakaus
+- 官方简介：The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
+- 主要语言 / 许可：Rust / Apache-2.0
+- 周新增 Star：7,283；当前累计 Star：94,254
+- Fork：5,567；最近推送时间（UTC）：2026-10-29T04:51:37Z
+- 官方资料：[pbakaus/impeccable](https://github.com/pbakaus/impeccable)（含 README）
+- 中文分析：本期未启用 AI；以上为官方元数据，具体使用条件请查 README。
+
+### 3. TauricResearch/TradingAgents
+
+- 维护方：TauricResearch
+- 官方简介：TradingAgents: Multi-Agents LLM Financial Trading Framework
+- 主要语言 / 许可：Python / Apache-2.0
+- 周新增 Star：5,322；当前累计 Star：118,135
+- Fork：22,593；最近推送时间（UTC）：2026-10-27T08:43:04Z
+- 官方资料：[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)（含 README）
+- 中文分析：本期未启用 AI；以上为官方元数据，具体使用条件请查 README。
+
+### 4. obra/superpowers
+
+- 维护方：obra
+- 官方简介：An agentic skills framework &amp; software development methodology that works.
+- 主要语言 / 许可：Shell / MIT
+- 周新增 Star：4,655；当前累计 Star：307,950
+- Fork：27,388；最近推送时间（UTC）：2026-10-23T03:48:57Z
+- 官方资料：[obra/superpowers](https://github.com/obra/superpowers)（含 README）
+- 中文分析：本期未启用 AI；以上为官方元数据，具体使用条件请查 README。
+
+### 5. multica-ai/andrej-karpathy-skills
+
+- 维护方：multica-ai
+- 官方简介：A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- 主要语言 / 许可：未标注 / 未确认（需阅读 LICENSE）
+- 周新增 Star：4,293；当前累计 Star：226,212
+- Fork：22,591；最近推送时间（UTC）：2026-04-20T10:05:04Z
+- 官方资料：[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)（含 README）
+- 中文分析：本期未启用 AI；以上为官方元数据，具体使用条件请查 README。
+
+### 6. Leonxlnx/taste-skill
+
+- 维护方：Leonxlnx
+- 官方简介：Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
+- 主要语言 / 许可：JavaScript / MIT
+- 周新增 Star：3,940；当前累计 Star：105,082
+- Fork：7,107；最近推送时间（UTC）：2026-10-29T08:49:32Z
+- 官方资料：[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)（含 README）
+- 中文分析：本期未启用 AI；以上为官方元数据，具体使用条件请查 README。
+
+### 7. AgriciDaniel/claude-seo
+
+- 维护方：AgriciDaniel
+- 官方简介：Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.
+- 主要语言 / 许可：Python / MIT
+- 周新增 Star：3,516；当前累计 Star：23,722
+- Fork：3,186；最近推送时间（UTC）：2026-10-22T16:47:40Z
+- 官方资料：[AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)（含 README）
+- 中文分析：本期未启用 AI；以上为官方元数据，具体使用条件请查 README。
+
+### 8. anthropics/knowledge-work-plugins
+
+- 维护方：anthropics
+- 官方简介：Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
+- 主要语言 / 许可：Python / Apache-2.0
+- 周新增 Star：2,612；当前累计 Star：33,760
+- Fork：3,713；最近推送时间（UTC）：2026-10-29T07:28:50Z
+- 官方资料：[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)（含 README）
+- 中文分析：本期未启用 AI；以上为官方元数据，具体使用条件请查 README。
+
+本期未调用付费模型接口，也未对项目进行安装或功能测试。
+
+<!-- weekly-report:2026-10-29:end -->
