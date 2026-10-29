@@ -36,8 +36,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           ENABLE_AI: ${{ vars.ENABLE_AI || 'false' }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-flash' }}
           REPORT_FORCE: ${{ inputs.force || false }}
         run: python scripts/update_github.py
 
