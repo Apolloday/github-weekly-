@@ -261,3 +261,129 @@ This week 使用来源站点自己的滚动周口径，页面未提供精确起�
 AI 分析仅整理已提供的项目资料，未经实际安装与功能测试。
 
 <!-- weekly-report:2026-10-29:end -->
+
+
+<!-- weekly-report:2026-11-06:start -->
+## 2026-11-06｜云端周报 Top 8
+
+生成时间：2026-11-06T03:47:48+08:00（北京时间）  
+榜单抓取时间：2026-11-06T03:47:50+08:00  
+模式：DeepSeek / deepseek-flash 中文总结（根据官方简介及 README 节选）  
+候选范围：本次 GitHub Trending / This week 页面解析到的 16 个项目。
+
+按页面标注的周新增 Star 降序取前 8；来源：[GitHub 官方周榜](https://github.com/trending?since=weekly)。
+This week 使用来源站点自己的滚动周口径，页面未提供精确起止时刻；不自行假定为周一至今。
+本期是周榜候选范围内排名，不是 GitHub 全站全部仓库的增长排名。
+周增量来自榜单；累计 Star、语言和许可证等来自随后读取的仓库 API，采样时点不同。
+许可证为 GitHub 自动识别结果，多组件或模型的许可应另查原文件。
+
+| 排名 | 项目 | 周新增 Star | 当前累计 Star | 主要语言 | 许可证 |
+| --- | --- | ---: | ---: | --- | --- |
+| 1 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 14,580 | 48,051 | TypeScript | MIT |
+| 2 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 10,921 | 103,762 | Rust | Apache-2.0 |
+| 3 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 8,822 | 113,460 | TypeScript | Apache-2.0 |
+| 4 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 7,622 | 48,632 | CSS | MIT |
+| 5 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 7,512 | 55,392 | Python | Apache-2.0 |
+| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 5,935 | 110,548 | JavaScript | MIT |
+| 7 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5,847 | 13,134 | TypeScript | Apache-2.0 |
+| 8 | [obra/superpowers](https://github.com/obra/superpowers) | 5,565 | 312,926 | Shell | MIT |
+
+### 1. pingdotgg/t3code
+
+- 维护方：pingdotgg
+- 官方简介：官方未填写简介
+- 主要语言 / 许可：TypeScript / MIT
+- 周新增 Star：14,580；当前累计 Star：48,051
+- Fork：9,588；最近推送时间（UTC）：2026-11-05T19:46:45Z
+- 官方资料：[pingdotgg/t3code](https://github.com/pingdotgg/t3code)（含 README）
+- 中文用途与功能（AI）：面向编码智能体的控制面板，可通过iOS、Android、Web和桌面端远程控制本机的Claude Code、Codex、Cursor等智能体，支持命令行启动与后台服务。
+- 适用人群（AI）：需要远程操控本地AI编码智能体的开发者
+- 使用条件或局限（AI）：项目自述处于早期阶段，可能有缺陷，且暂不接受大型功能贡献；使用前需先安装并登录至少一个支持的提供方。
+
+### 2. pbakaus/impeccable
+
+- 维护方：pbakaus
+- 官方简介：The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
+- 主要语言 / 许可：Rust / Apache-2.0
+- 周新增 Star：10,921；当前累计 Star：103,762
+- Fork：6,145；最近推送时间（UTC）：2026-11-05T19:43:28Z
+- 官方资料：[pbakaus/impeccable](https://github.com/pbakaus/impeccable)（含 README）
+- 中文用途与功能（AI）：为编码智能体提供设计词汇的Agent Skill，通过polish、bolder等命令调整设计，用critique和audit审查界面，并用规则检测识别AI生成式套路。
+- 适用人群（AI）：希望提升AI生成界面设计质量的开发者与设计工程师
+- 使用条件或局限（AI）：需用npx安装并在所支持的工具中初始化；效果依赖已有界面，官方称在现有页面上迭代最强。
+
+### 3. thedotmack/claude-mem
+
+- 维护方：thedotmack
+- 官方简介：Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+- 主要语言 / 许可：TypeScript / Apache-2.0
+- 周新增 Star：8,822；当前累计 Star：113,460
+- Fork：9,847；最近推送时间（UTC）：2026-11-05T19:34:43Z
+- 官方资料：[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)（含 README）
+- 中文用途与功能（AI）：为编码智能体提供持久记忆的压缩系统，捕获会话中智能体的操作内容，用AI压缩后把相关上下文注入后续会话，支持Claude Code、Codex、Gemini等多种工具。
+- 适用人群（AI）：希望跨会话保留上下文的编码智能体用户
+- 使用条件或局限（AI）：README主要展示项目介绍与徽章，具体使用条件和局限未完整呈现；需Node 20以上版本。
+
+### 4. Nutlope/hallmark
+
+- 维护方：Nutlope
+- 官方简介：Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
+- 主要语言 / 许可：CSS / MIT
+- 周新增 Star：7,622；当前累计 Star：48,632
+- Fork：2,579；最近推送时间（UTC）：2026-11-05T13:16:31Z
+- 官方资料：[Nutlope/hallmark](https://github.com/Nutlope/hallmark)（含 README）
+- 中文用途与功能（AI）：防止页面看起来像AI生成的设计技能，为Claude Code、Codex、Cursor等提供五十种主题，围绕用户目标构建页面，并在真实浏览器中按规则检查生成结果。
+- 适用人群（AI）：需要生成非模板化网页设计的开发者与设计者
+- 使用条件或局限（AI）：资料为README节选，安装与完整用法未完整展示；具体适用条件和限制未确认。
+
+### 5. HKUDS/DeepTutor
+
+- 维护方：HKUDS
+- 官方简介：DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+- 主要语言 / 许可：Python / Apache-2.0
+- 周新增 Star：7,512；当前累计 Star：55,392
+- Fork：6,790；最近推送时间（UTC）：2026-11-05T19:03:44Z
+- 官方资料：[HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)（含 README）
+- 中文用途与功能（AI）：名为DeepTutor的终身个性化辅导项目，提供文档站点与CLI等接口，使用Python 3.11+与Next.js构建，README包含功能介绍和社区链接。
+- 适用人群（AI）：关注AI个性化教育辅导的研究者与开发者
+- 使用条件或局限（AI）：README为节选，核心功能细节、具体使用条件和性能表现未被完整提供，需要进一步确认。
+
+### 6. Leonxlnx/taste-skill
+
+- 维护方：Leonxlnx
+- 官方简介：Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
+- 主要语言 / 许可：JavaScript / MIT
+- 周新增 Star：5,935；当前累计 Star：110,548
+- Fork：7,428；最近推送时间（UTC）：2026-11-05T01:12:12Z
+- 官方资料：[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)（含 README）
+- 中文用途与功能（AI）：让编码智能体具备设计品味的Agent Skill，通过艺术指导、参考图片和真实浏览器检查，生成接近专业公司网站水平的页面，并遵循统一设计与真实素材规则。
+- 适用人群（AI）：希望智能体产出高质量商业网站页面的开发者
+- 使用条件或局限（AI）：需Node 22以上及已安装Chrome、Edge或Chromium；可选ffmpeg用于WebP输出，安装不引入API密钥。
+
+### 7. milind-soni/OpenMausBot
+
+- 维护方：milind-soni
+- 官方简介：Open-source Grok Bot alternative with a virtual machine that bots can use
+- 主要语言 / 许可：TypeScript / Apache-2.0
+- 周新增 Star：5,847；当前累计 Star：13,134
+- Fork：1,818；最近推送时间（UTC）：2026-11-05T19:42:28Z
+- 官方资料：[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)（含 README）
+- 中文用途与功能（AI）：开源的Grok Bot替代方案，以聊天应用形式提供多个AI智能体，每个机器人有独立人格、模型和云电脑，底层可运行本地的Claude或Codex，支持审批操作。
+- 适用人群（AI）：希望本地自建多智能体聊天体验的用户
+- 使用条件或局限（AI）：项目自称独立开源、与xAI等无关联；README强调无代币关联。系统要求与完整限制未详尽说明。
+
+### 8. obra/superpowers
+
+- 维护方：obra
+- 官方简介：An agentic skills framework &amp; software development methodology that works.
+- 主要语言 / 许可：Shell / MIT
+- 周新增 Star：5,565；当前累计 Star：312,926
+- Fork：27,842；最近推送时间（UTC）：2026-11-03T23:24:58Z
+- 官方资料：[obra/superpowers](https://github.com/obra/superpowers)（含 README）
+- 中文用途与功能（AI）：为编码智能体提供完整软件开发方法论的技能框架，先梳理需求与设计，再生成实现计划，并以子智能体驱动开发逐项完成任务，强调TDD、YAGNI与DRY。
+- 适用人群（AI）：希望规范AI辅助开发流程的工程团队与开发者
+- 使用条件或局限（AI）：需按不同工具分别安装，资料仅展示部分安装方式；系统实际效果与限制未完整提供。
+
+AI 分析仅整理已提供的项目资料，未经实际安装与功能测试。
+
+<!-- weekly-report:2026-11-06:end -->
