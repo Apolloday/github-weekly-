@@ -387,3 +387,129 @@ This week 使用来源站点自己的滚动周口径，页面未提供精确起�
 AI 分析仅整理已提供的项目资料，未经实际安装与功能测试。
 
 <!-- weekly-report:2026-11-06:end -->
+
+
+<!-- weekly-report:2026-11-13:start -->
+## 2026-11-13｜云端周报 Top 8
+
+生成时间：2026-11-13T03:47:19+08:00（北京时间）  
+榜单抓取时间：2026-11-13T03:47:21+08:00  
+模式：DeepSeek / deepseek-flash 中文总结（根据官方简介及 README 节选）  
+候选范围：本次 GitHub Trending / This week 页面解析到的 11 个项目。
+
+按页面标注的周新增 Star 降序取前 8；来源：[GitHub 官方周榜](https://github.com/trending?since=weekly)。
+This week 使用来源站点自己的滚动周口径，页面未提供精确起止时刻；不自行假定为周一至今。
+本期是周榜候选范围内排名，不是 GitHub 全站全部仓库的增长排名。
+周增量来自榜单；累计 Star、语言和许可证等来自随后读取的仓库 API，采样时点不同。
+许可证为 GitHub 自动识别结果，多组件或模型的许可应另查原文件。
+
+| 排名 | 项目 | 周新增 Star | 当前累计 Star | 主要语言 | 许可证 |
+| --- | --- | ---: | ---: | --- | --- |
+| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 11,507 | 71,054 | JavaScript | MIT |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | 9,575 | 322,890 | Shell | MIT |
+| 3 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 9,257 | 21,661 | TypeScript | Apache-2.0 |
+| 4 | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | 7,947 | 12,185 | Python | Apache-2.0 |
+| 5 | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 7,772 | 22,635 | Rust | Apache-2.0 |
+| 6 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 5,814 | 102,060 | Python | BSD-3-Clause |
+| 7 | [anthropics/skills](https://github.com/anthropics/skills) | 5,738 | 193,631 | Python | 未确认（需阅读 LICENSE） |
+| 8 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 4,183 | 50,274 | Rust | Apache-2.0 |
+
+### 1. cloudflare/security-audit-skill
+
+- 维护方：cloudflare
+- 官方简介：A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+- 主要语言 / 许可：JavaScript / MIT
+- 周新增 Star：11,507；当前累计 Star：71,054
+- Fork：4,722；最近推送时间（UTC）：2026-09-14T19:29:02Z
+- 官方资料：[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)（含 README）
+- 中文用途与功能（AI）：面向编码代理的安全审计技能，按侦察、覆盖驱动查找、候选验证、结构化输出、独立记录校验与报告中立六阶段执行，产出可机读的确认、待验证与驳回记录。
+- 适用人群（AI）：使用编码代理对代码库做安全审计的安全与开发人员
+- 使用条件或局限（AI）：依赖技能安装方式与代理环境；实际效果与配置未经提供资料确认
+
+### 2. mattpocock/skills
+
+- 维护方：mattpocock
+- 官方简介：Skills for Real Engineers. Straight from my .agents directory.
+- 主要语言 / 许可：Shell / MIT
+- 周新增 Star：9,575；当前累计 Star：322,890
+- Fork：27,076；最近推送时间（UTC）：2026-11-12T12:11:43Z
+- 官方资料：[mattpocock/skills](https://github.com/mattpocock/skills)（含 README）
+- 中文用途与功能（AI）：作者日常使用的编码代理技能集合，强调小型、可修改、可组合，用于需求对齐、减少冗余输出等真实工程流程，支持多种代理安装。
+- 适用人群（AI）：使用Claude Code、Codex等代理的软件工程师
+- 使用条件或局限（AI）：部分技能需先运行设置流程；具体技能清单与效果资料节选未完整覆盖
+
+### 3. milind-soni/OpenMausBot
+
+- 维护方：milind-soni
+- 官方简介：Open-source Grok Bot alternative with a virtual machine that bots can use
+- 主要语言 / 许可：TypeScript / Apache-2.0
+- 周新增 Star：9,257；当前累计 Star：21,661
+- Fork：3,016；最近推送时间（UTC）：2026-11-12T19:36:03Z
+- 官方资料：[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)（含 README）
+- 中文用途与功能（AI）：开源桌面聊天应用，侧栏每个机器人都是本地运行的Claude或Codex代理，各有性格、模型、云端计算机与连接应用，可对话、观察工作并审批操作。
+- 适用人群（AI）：希望在聊天界面管理本地AI代理团队的用户
+- 使用条件或局限（AI）：支持macOS、Windows、Ubuntu；需自备模型与代理；与xAI等无关联
+
+### 4. NVIDIA/auto-ontology
+
+- 维护方：NVIDIA
+- 官方简介：Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.
+- 主要语言 / 许可：Python / Apache-2.0
+- 周新增 Star：7,947；当前累计 Star：12,185
+- Fork：1,005；最近推送时间（UTC）：2026-11-12T13:38:54Z
+- 官方资料：[NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)（含 README）
+- 中文用途与功能（AI）：Python框架，从企业元数据构建语义本体与知识图谱，协调跨系统定义，为代理提供可信业务含义，并通过MCP、CLI与API暴露上下文，支持查询校验与溯源。
+- 适用人群（AI）：构建代理分析、自然语言查询结构化数据的数据与AI开发者
+- 使用条件或局限（AI）：需NVIDIA NIM推理端点与API密钥、Postgres等组件；当前不接受外部贡献
+
+### 5. vercel-labs/agent-desktop
+
+- 维护方：vercel-labs
+- 官方简介：Computer use CLI for AI agents
+- 主要语言 / 许可：Rust / Apache-2.0
+- 周新增 Star：7,772；当前累计 Star：22,635
+- Fork：1,678；最近推送时间（UTC）：2026-11-11T06:09:45Z
+- 官方资料：[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)（含 README）
+- 中文用途与功能（AI）：让AI代理通过操作系统无障碍树查看并操作macOS、Windows、Linux桌面应用，快照返回带引用的JSON，代理按引用点击或输入后重新观察，无内置模型。
+- 适用人群（AI）：需要桌面应用计算机使用能力的代理开发者
+- 使用条件或局限（AI）：macOS需授予辅助功能权限；快照等可能含隐私内容，勿公开上传
+
+### 6. D4Vinci/Scrapling
+
+- 维护方：D4Vinci
+- 官方简介：🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev
+- 主要语言 / 许可：Python / BSD-3-Clause
+- 周新增 Star：5,814；当前累计 Star：102,060
+- Fork：10,622；最近推送时间（UTC）：2026-11-11T19:16:10Z
+- 官方资料：[D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)（含 README）
+- 中文用途与功能（AI）：Web抓取框架，覆盖从单次请求到大规模爬取的场景，提供选择器、多种抓取器与爬虫架构，并附代理与反封锁相关文档及多语言说明。
+- 适用人群（AI）：需要抓取现代网页与构建爬虫的Python开发者
+- 使用条件或局限（AI）：部分站点抓取涉及代理、合规与反封锁配置；具体能力需查阅文档确认
+
+### 7. anthropics/skills
+
+- 维护方：anthropics
+- 官方简介：Public repository for Agent Skills
+- 主要语言 / 许可：Python / 未确认（需阅读 LICENSE）
+- 周新增 Star：5,738；当前累计 Star：193,631
+- Fork：22,777；最近推送时间（UTC）：2026-11-06T22:32:32Z
+- 官方资料：[anthropics/skills](https://github.com/anthropics/skills)（含 README）
+- 中文用途与功能（AI）：Anthropic的Claude代理技能示例仓库，技能为含SKILL.md的文件夹，涵盖创意设计、技术任务、企业流程与文档处理，并提供规范与模板供参考。
+- 适用人群（AI）：希望了解或创建Claude代理技能的开发者
+- 使用条件或局限（AI）：仓库注明仅供演示与教育；实际Claude行为可能不同，关键任务需自行测试
+
+### 8. vercel-labs/agent-browser
+
+- 维护方：vercel-labs
+- 官方简介：Browser automation CLI for AI agents
+- 主要语言 / 许可：Rust / Apache-2.0
+- 周新增 Star：4,183；当前累计 Star：50,274
+- Fork：3,501；最近推送时间（UTC）：2026-11-12T18:59:27Z
+- 官方资料：[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)（含 README）
+- 中文用途与功能（AI）：原生Rust浏览器自动化CLI，代理可通过快照读取页面并获取元素引用，逐条命令点击、输入并复查结果，浏览器在命令间保持运行，支持多种引擎与云端浏览器。
+- 适用人群（AI）：需要从命令行驱动浏览器的AI代理开发者
+- 使用条件或局限（AI）：首次需下载Chrome for Testing；引用随页面变化失效；部分引擎与提供商需额外配置
+
+AI 分析仅整理已提供的项目资料，未经实际安装与功能测试。
+
+<!-- weekly-report:2026-11-13:end -->
